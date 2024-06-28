@@ -86,16 +86,150 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.content-wrapper {
+  outline: 3px dotted red;
+  width: 90%;
+}
 
- 
+/*  Base Header - Footer Styles */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+}
 
 
+/* Header Styles */
+
+header {
+
+}
+
+header .content-wrapper {
+  display: flex;
+
+}
+
+header figure {
+
+}
+
+.header-divider {
 
 
+}
 
 
+header nav ul {
+  display: flex;
+
+}
+
+/* --------------------Mobile Styles - Homepage -------------*/
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+}
 
 
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+/* features */
+
+features {
+  display: flex;
+  justify-content: center;
+
+}
+
+.features .feature-items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+
+/* reviews */
+
+.reviews {
+  display: flex;
+  justify-content: center;
+
+}
+
+/*---------About Page--*/
+
+.mission {
+  display: flex;
+  justify-content: center;
+
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+/*  FAQ page*/
+
+.faq {
+  display: flex;
+  justify-content: center;
+
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.faq-content p {
+
+
+}
+
+/*---------------end of mobile styles----------*/
 
 
 
