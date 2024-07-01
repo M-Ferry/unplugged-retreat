@@ -102,7 +102,7 @@ header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  flex-flow: row wrap;
 }
 
 header nav ul {
@@ -128,42 +128,18 @@ footer .social-icons {
 footer .social-icons p {
   display: flex;
   justify-content: center;
-}
-
-
-/* Header Styles */
-
-header {
-
-}
-
-header .content-wrapper {
-  display: flex;
-
-}
-
-header figure {
-
-}
-
-.header-divider {
-
-
-}
-
-
-header nav ul {
-  display: flex;
-
+  align-items: center;
 }
 
 /* --------------------Mobile Styles - Homepage -------------*/
 
+/* HERO AREA */
 .hero-area {
   display: flex;
   justify-content: center;
 }
 
+/* ASIDE */
 
 aside {
   display: flex;
@@ -182,7 +158,7 @@ features {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-
+  flex-flow: row wrap;
 }
 
 
@@ -193,23 +169,20 @@ features {
   justify-content: center;
 
 }
-
-/*---------About Page--*/
+/*========ABOUT PAGE ================*/
 
 .mission {
   display: flex;
   justify-content: center;
-
 }
 
 .contact-section {
   display: flex;
   justify-content: center;
-
 }
 
 
-/*  FAQ page*/
+/*==========  FAQ page============*/
 
 .faq {
   display: flex;
@@ -221,26 +194,12 @@ features {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-flow: row wrap;
 
 }
 
-.faq-content p {
-
-
-}
 
 /*---------------end of mobile styles----------*/
-
-
-
-
-
-
-
-
-
-
-
 
 
 
