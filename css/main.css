@@ -4,9 +4,7 @@
    ========================================================================== */
 .content-wrapper {
   outline: 3px dotted red;
-  
-  
-}
+ }
 
 /*  Base Header - Footer Styles */
 
@@ -24,33 +22,40 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 90%;
+  width: 95%;
   margin: 0;
+  padding: 15px 0 15px 0;
+}
 
+header .content-wrapper img {
+  margin: 0;
 }
 
 header .header-divider {
-  width: 100%;
-  height: 1px;
+  width: 90%;
+  height: 10px;
+  
 
 }
 
 header nav {
   width: 60%;
   margin: 25px 0;
- 
-}
+  padding: 20px 0 15px 0;
+ }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 75%;
+  margin: 0;
 }
 
-header .content-wrapper h1 {
+header nav ul li {
   width: 90%;
   display: flex;
   justify-content: center;
+  padding: 5px 10px 5px 10px;
 }
 
 footer {
@@ -67,12 +72,14 @@ footer .content-wrapper {
 
 }
 
-footer .contact-content p { 
+footer h4 { 
+  padding: 20px 0 20px 0;
   margin: 0;
 }
 
-footer address p {
+footer p {
   margin: 0;
+  padding-bottom: 50px;
 }
 
 footer .social-icons {
@@ -81,10 +88,23 @@ footer .social-icons {
   align-items: center;
 }
 
+footer .social-icons h4 {
+  justify-content: center;
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+footer .copyright {
+  margin: 0;
+  padding: 20px 0 20px 0;
 }
 
 /* --------------------Mobile Styles - Homepage -------------*/
@@ -94,6 +114,11 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   width: 90%;
+  height: 500px;
+}
+
+main .content-wrapper {
+  width: 95%;
 }
 
 /* ASIDE */
@@ -116,6 +141,12 @@ aside {
 .features .content-wrapper {
   width: 90%;
 } 
+ 
+.features h2 {
+  margin: 0;
+}
+
+
 
 .features .feature-items {
   display: flex;
@@ -128,6 +159,10 @@ aside {
   width: 63%;
 
 }
+.features .feature-items-description {
+  margin: 0;
+}
+
 /*---- reviews ------*/
 
 .reviews {
