@@ -126,8 +126,7 @@ header .content-wrapper { /*correct*/
 
 header nav {    /*correct*/
   width: 60%;
- /* margin: 25px 0;     not in solution*/    
- /* padding: 20px 0 15px 0;   not in solution*/
+ 
  }
 
 header nav ul {    /*correct*/
@@ -157,7 +156,6 @@ footer p {
 
 footer .content-wrapper {
   width: 55%;
-/*  margin: 50px 0;  not in solution*/
 
 }
 
@@ -165,15 +163,6 @@ footer .contact {   /* check to make sure this is in HTML*/
   margin-bottom: 50px;
 
 }
-/*.contact-content h4 {  not in solution, at least not here
-  padding: 20px 0 20px 0;
-  margin: 0;
-}
-
-.contact-content p {
-  margin: 0;
-  padding-bottom: 50px;
-}*/
 
 footer .social-icons {
   display: flex;
@@ -181,11 +170,6 @@ footer .social-icons {
   align-items: center;
 }
 
-/*.social-icons h4 {     not in solution
-  justify-content: center;
-  margin: 0;
-  padding: 20px 0 20px 0;
-}*/
 
 footer .social-icons p {
   display: flex;
@@ -205,12 +189,9 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
-  /*height: 500px;   not in solution so far*/
+ 
 }
 
-/*main .content-wrapper { not in solution so far
-  width: 95%;
-}*/
 
 /* ASIDE */
 
@@ -247,9 +228,6 @@ aside {
   margin: 0;
 }
 
-/*.features .feature-items-description { not in solution yet
-  margin: 0;
-}*/
 
 /*---- reviews ------*/
 
@@ -258,10 +236,6 @@ aside {
   justify-content: center;
   
 }
-
-/*.reviews .content-wrapper { not in solution
-  width: 90%;
-}*/
 
 .reviews h2 {
   margin-bottom: 40px;  
@@ -286,7 +260,7 @@ aside {
 .contact-content p {
   margin: 0;
 }
-/*==========  FAQ page========FAQ is correct in solution====*/
+/*==========  FAQ page===========*/
 
 .faq {
   display: flex;
@@ -310,7 +284,7 @@ aside {
   margin-bottom: 50px;  
 }
 
-/*---------------end of mobile styles----------*/
+/*----go to 379 for tablet and desktop----end of mobile styles-----*/
 
 
 /* ==========================================================================
@@ -402,9 +376,19 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media screen and (min-width: 768px) {
+  /* Tablet styles here */
 }
+
+@media screen and (min-width: 1200px) {
+  /* Desktop styles here*/
+}
+
+
+
+
+
+
 
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
