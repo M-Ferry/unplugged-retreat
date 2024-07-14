@@ -217,7 +217,7 @@ aside {
   margin: 30px 0;
 }
 
-.features .feature-items {   /*correct*/
+.features .features-items {   /*correct*/
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -411,7 +411,7 @@ header nav ul {
 
 /*Hero Area*/
 
-/* Aside */
+/* Aside for home tablet*/
 
 aside .content-wrapper {
   margin: 50px 0;
@@ -428,20 +428,22 @@ aside .content-wrapper .form {
 
 }
 
-/* Features */
+/* Features for home for tablet*/
 
-.features-item article {
+.features article {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
   flex-basis: 50%;
+  text-align: center;
+  
 }
 
 .features .features-item-description {
   width: 50%;
 }
 
-/*Reviews*/
+/*Reviews for tablet */
 
 .reviews article {
   display: flex;
@@ -453,7 +455,7 @@ aside .content-wrapper .form {
   width: 49%;
 }
 
-/*Footer*/
+/*Footer for tablet*/
 
 footer .content-wrapper {
   width: 65%;
@@ -476,6 +478,48 @@ footer .contact {
 footer .copyright {
   width: 100%;
 }
+
+
+/*=======ABOUT PAGE==for tablet ===*/
+
+.mission-content {
+  display: flex; /*correct*/
+  justify-content: space-between; /*correct */
+  align-items: flex-start;  /*correct*/
+  padding-top: 20px; /*correct*/
+}
+
+.mission-content p {
+  width: 45%;  /*correct*/
+}
+
+.contact-section .content-wrapper h2 {
+  width: 80%; /*correct*/
+}
+
+.contact-content {
+  display: flex;    /*correct*/
+  justify-content: space-between; /*correct*/ 
+  align-items: flex-start; /*correct*/
+}
+
+/*======FAQ PAGE==for tablet===*/
+
+.faq .content-wrapper {
+  justify-content: space-between; /*correct*/
+
+}
+
+.faq-content {
+  flex-basis: 45%; /*from instruction*/
+}
+
+.faq h2 {
+  width: 100%;  /*from instruction*/
+
+}
+
+
 
 
 }    /* end of Tablet code*/
