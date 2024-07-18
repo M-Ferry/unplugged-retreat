@@ -1,6 +1,6 @@
 /*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
 
-/*
+/* !!!AUTHORS CODE STARTS ON LINE 95!!!! MARGARET FERRY
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
@@ -103,18 +103,19 @@
 
 /*  Base Header - Footer Styles */
 
-header {
+header {   /*this all correct  */
   display: flex;
   justify-content: center;
   padding: 15px 0;
 }
 
-header .content-wrapper { /*correct*/
+header .content-wrapper { /*correct Mobile styles*/
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 0;
+  
  
 }
 
@@ -136,12 +137,6 @@ header nav ul {    /*correct*/
   
 }
 
-header nav ul {    /*correct*/
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
 footer {   /*correct*/
   display: flex;
   flex-direction: column;
@@ -159,33 +154,33 @@ footer .content-wrapper {
 
 }
 
-footer .contact {   /* check to make sure this is in HTML*/
+footer .contact {   /* correct */
   margin-bottom: 50px;
 
 }
 
-footer .social-icons {
+footer .social-icons { /*correct */
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 
-footer .social-icons p {
+footer .social-icons p { /*correct*/
   display: flex;
   justify-content: center;
   align-items: center;
   
 }
 
-footer .copyright {
+footer .copyright {  /*correct*/
   margin: 20px 0;
  
 }
 
 /* --------------------Mobile Styles - Homepage -------------*/
 
-/* HERO AREA */
+/* HERO AREA correct */
 .hero-area {
   display: flex;
   justify-content: center;
@@ -193,7 +188,7 @@ footer .copyright {
 }
 
 
-/* ASIDE */
+/* ASIDE correct mobile*/
 
 aside {
   display: flex;
@@ -202,13 +197,13 @@ aside {
 
 /* features */
 
-.features {
+.features {   /*correct*/
   display: flex;
   justify-content: center;
   
 }
 
-.features h2 {
+.features h2 {    /*correct*/
   margin-bottom: 60px;
 }
 
@@ -231,21 +226,21 @@ aside {
 
 /*---- reviews ------*/
 
-.reviews {
+.reviews {    /*correct*/
   display: flex;
   justify-content: center;
   
 }
 
-.reviews h2 {
+.reviews h2 {    /*correct*/
   margin-bottom: 40px;  
 }
-
-.reviews h3 {
+ 
+.reviews h3 {     /*correct*/
   width: 55%;
   margin: 20px 0;
 }
-/*========ABOUT PAGE ================*/
+/*========ABOUT PAGE =======mobile styles=========*/
 
 .mission {             /*all of about page correct*/
   display: flex;
@@ -260,7 +255,7 @@ aside {
 .contact-content p {
   margin: 0;
 }
-/*==========  FAQ page===========*/
+/*==========  FAQ page====mobile styles=======*/
 
 .faq {
   display: flex;
@@ -268,7 +263,7 @@ aside {
 
 }
 
-.faq .content-wrapper {
+.faq .content-wrapper {    /*all correct for faq page*/
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -380,32 +375,32 @@ aside {
   /* Tablet styles here */
   /*General Styles */
 
-  .content-wrapper {
+  .content-wrapper {   /*correct*/
   max-width: 640px;
   margin: 100px 0;
 }
 
-  /* Header */
+  /* Header Tablet*/
 
-header {
+header {   /*correct*/
   padding: 33px 0;
 }
 
-header .content-wrapper {
+header .content-wrapper {   /*correct*/
   width: 100%;
   justify-content: space-between;
 }
 
-header nav {
+header nav {   /*correct*/
   width: 20%;
 }
 
-header nav ul {
+header nav ul {   /*correct*/
   justify-content: space-between;
 
 }
 
-.header-divider {
+.header-divider {   /*correct*/
   display: none;
 }
 
@@ -413,7 +408,7 @@ header nav ul {
 
 /* Aside for home tablet*/
 
-aside .content-wrapper {
+aside .content-wrapper {   /*correct*/
   margin: 50px 0;
   display: flex;
   justify-content: space-between;
@@ -423,59 +418,59 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 40%;
+  width: 40%;    /*correct*/
   margin: 0;
 
 }
 
 /* Features for home for tablet*/
 
-.features article {
+.features article {    /*correct*/
   display: flex;
   align-items: center;
   flex-flow: column wrap;
   flex-basis: 50%;
-  text-align: center;
+ /* text-align: center; not in solution */
   
 }
 
-.features .features-item-description {
-  width: 50%;
+.features .features-item-description {   /*correct*/
+  width: 62%;
 }
 
 /*Reviews for tablet */
 
-.reviews article {
+.reviews article {   /*correct*/
   display: flex;
   justify-content: space-between;
   
 }
 
-.reviews article div {
+.reviews article div {   /*correct*/
   width: 49%;
 }
 
 /*Footer for tablet*/
 
-footer .content-wrapper {
+footer .content-wrapper {  /*code commented out*/
   width: 65%;
-  margin: 100px 0;
+ /* margin: 100px 0; not in solution */
 
 }
 
-.footer-content {
+.footer-content {   /*correct*/
   display: flex;
   justify-content: space-between;
   align-items: center;
 
 }
 
-footer .contact {
+footer .contact {   /*correct*/
   margin-bottom: 0;
 
 }
 
-footer .copyright {
+footer .copyright {    /*correct*/
   width: 100%;
 }
 
@@ -484,9 +479,9 @@ footer .copyright {
 
 .mission-content {
   display: flex; /*correct*/
-  justify-content: space-between; /*correct */
-  align-items: flex-start;  /*correct*/
-  padding-top: 20px; /*correct*/
+  justify-content: space-between; 
+  align-items: flex-start;  
+  padding-top: 20px; 
 }
 
 .mission-content p {
@@ -499,8 +494,8 @@ footer .copyright {
 
 .contact-content {
   display: flex;    /*correct*/
-  justify-content: space-between; /*correct*/ 
-  align-items: flex-start; /*correct*/
+  justify-content: space-between; 
+  align-items: flex-start; 
 }
 
 /*======FAQ PAGE==for tablet===*/
@@ -510,32 +505,81 @@ footer .copyright {
 
 }
 
-.faq-content {
+.faq-content {   /*correct*/
   flex-basis: 45%; /*from instruction*/
 }
 
-.faq h2 {
+.faq h2 {    /*correct*/
   width: 100%;  /*from instruction*/
 
 }
 
 
-
-
 }    /* end of Tablet code*/
-
-
-
 
 
 @media screen and (min-width: 1200px) {
   /* Desktop styles here*/
+/* Header styles */
+
+.content-wrapper {  /*correct*/
+  max-width: 960px;
+}
+
+header {     /*correct*/
+  padding: 15px 0;
 }
 
 
 
+/* HERO for Desktop*/
+
+.hero-area h1 {   /* correct*/
+  width: 80%;
+}
+
+/*ASIDE for desktop*/
+aside .content-wrapper {   /* correct*/
+  justify-content: space-around;
+}
 
 
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {   /* correct*/
+  width: 30%;
+}
+
+/* FEATURES*/
+
+.features h2 {   /* correct*/
+  width: 90%;
+}
+
+.features article {   /* correct*/
+  flex-basis: 33%;
+}
+
+/*REVIEWS for desktop*/   /* correct*/
+.reviews article div {
+  width: 42%;
+}
+
+/*======ABOUT PAGE===for desktop======*/
+
+.mission h2,   
+.contact-section .content-wrapper h2 {   /* correct*/
+  width: 95%;
+}
+
+/*======FAQ==for desktop===========*/
+.faq h2 {    /* correct*/
+  width: 100%;
+
+}
+
+/* END OF AUTHOR SCODE */
+
+}
 
 
 @media print,
