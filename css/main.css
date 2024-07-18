@@ -95,7 +95,72 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*==The reason you want to add your global styles at the top of the 
+stylesheet is that if you need to, you can override them further
+ down in the document. For example, you may need to specify that
+  headers that are linked are not the same color as body text 
+  that is linked.*/
+
+/* GENERAL STYLES */
+
+html {
+  font-size: 1rem;
+}
+/*Wondering why you should write this style for the
+ <body> tag and not the <p> tags? To explain: it’s a
+  good idea to put the font-family on the ultimate parent
+   tag just in case you have text in <ul> or <li> elements.
+    Not everything goes inside a <p> tag, after all.*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+ul,
+ol {
+
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+/* give font size to this */
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+/*give font size to this */
+}
+
+p {
+
+}
+
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+
+}
+
+
 .content-wrapper {
+
+}
+
+   .content-wrapper {
   outline: 3px dotted red;
   width: 90%;
   margin: 50px 0;
