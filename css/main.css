@@ -104,7 +104,7 @@ stylesheet is that if you need to, you can override them further
 /* GENERAL STYLES */
 
 html {
-  font-size: 1rem;
+  font-size: 16px; /*lesson 11 step 1 told to use 16px*/
 }
 /*Wondering why you should write this style for the
  <body> tag and not the <p> tags? To explain: it’s a
@@ -119,48 +119,45 @@ body {
 
 ul,
 ol {
+  list-style-type: none; /*correct*/
 
 }
 
 a {
-  color: #e2e3ed;
+  color: #e2e3ed; /*correct*/
   text-decoration: none;
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
-/* give font size to this */
+  font-family: 'Poppins', sans-serif; /*correct*/
+  font-size: 1.875em;
 }
 
 h3,
 h4 {
-  font-family: 'Poppins', sans-serif;
-/*give font size to this */
+  font-family: 'Poppins', sans-serif; /*correct*/
+  margin: 20px 0;
+  font-size: 1.125em;
 }
 
 p {
-
+  font-size: .875em; /*correct*/
+  line-height: 1.285;
 }
 
-
-img {
-
-}
-
-figure {
-
-}
 
 address {
+  font-style: normal; /*correct*/
 
 }
 
+.content-wrapper {  /*correct*/
+  width: 90%;
+  margin: 50px 0;
 
+}
+/* Coding starts here*/
 .content-wrapper {
-
-}
-
-   .content-wrapper {
   outline: 3px dotted red;
   width: 90%;
   margin: 50px 0;
