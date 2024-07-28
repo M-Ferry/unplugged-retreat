@@ -12,7 +12,7 @@
 
    html {
     color: #222;
-    font-size: 1em;
+    font-size: 16px;
     line-height: 1.4;
   }
   
@@ -101,7 +101,7 @@ stylesheet is that if you need to, you can override them further
   headers that are linked are not the same color as body text 
   that is linked.*/
 
-/* GENERAL STYLES */
+/* GLOBAL STYLES */
 
 html {
   font-size: 16px; /*lesson 11 step 1 told to use 16px*/
@@ -115,6 +115,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+
 }
 
 ul,
@@ -163,7 +164,7 @@ address {
   margin: 50px 0;
  }
 
-/*  Base Header - Footer Styles */
+/*  Base Header - Footer Styles for all devices unless over written */
 
 header {   /*this all correct  */
   display: flex;
@@ -178,7 +179,6 @@ header .content-wrapper { /*correct Mobile styles*/
   align-items: center;
   flex-flow: row wrap;
   
- 
 }
 
 .header-divider {   /*correct*/
@@ -189,6 +189,8 @@ header .content-wrapper { /*correct Mobile styles*/
 
 header nav {    /*correct*/
   width: 60%;
+  font: 18px;
+  font-weight: bold;
  
  }
 
@@ -225,6 +227,7 @@ footer .social-icons { /*correct */
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 
@@ -240,15 +243,19 @@ footer .copyright {  /*correct*/
  
 }
 
-/* --------------------Mobile Styles - Homepage -------------*/
+/* --==--Mobile Styles - Homepage ===============*/
 
 /* HERO AREA correct */
 .hero-area {
   display: flex;
   justify-content: center;
- 
 }
 
+.hero-area h1 {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500;
+}
 
 /* ASIDE correct mobile*/
 
@@ -256,6 +263,19 @@ aside {
   display: flex;
   justify-content: center;
 }
+
+/* form-description===*/
+aside .form-description h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+aside .form-description p { /*mobile*/
+  font-size: 14px;
+  line-height: 18px;
+
+}
+
 /* this is for aside form*/
 aside .form {
   margin-top: 30px;
@@ -281,11 +301,10 @@ input[type=button] {
   border: none;
   text-align: center;
   text-transform: uppercase;
+  
 }
 
 /*done*/
-
-
 
 /* features */
 
@@ -297,6 +316,8 @@ input[type=button] {
 
 .features h2 {    /*correct*/
   margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .features article {  /*correct*/
@@ -304,7 +325,7 @@ input[type=button] {
   margin: 30px 0;
 }
 
-.features .features-items {   /*correct*/
+ .features-items {   /*correct*/
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -313,6 +334,15 @@ input[type=button] {
 
 .features p {  /*correct*/
   margin: 0;
+}
+
+article .fontawesome-icons {
+  font-size: 60px; /*style sheet don't know if font-size is correct term*/
+} 
+
+article .features-items-description {
+  justify-content: center;
+
 }
 
 
@@ -365,10 +395,15 @@ input[type=button] {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
   margin-bottom: 50px;  
+}
+
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 /*----go to 379 for tablet and desktop----end of mobile styles-----*/
@@ -530,7 +565,7 @@ aside .content-wrapper .form {
   width: 62%;
 }
 
-/*Reviews for tablet */
+/*Reviews for tablet==================== */
 
 .reviews article {   /*correct*/
   display: flex;
@@ -542,7 +577,7 @@ aside .content-wrapper .form {
   width: 49%;
 }
 
-/*Footer for tablet*/
+/*Footer for tablet=======================*/
 
 footer .content-wrapper {  /*code commented out*/
   width: 65%;
@@ -567,7 +602,7 @@ footer .copyright {    /*correct*/
 }
 
 
-/*=======ABOUT PAGE==for tablet ===*/
+/*=======ABOUT PAGE==for tablet =============*/
 
 .mission-content {
   display: flex; /*correct*/
@@ -590,7 +625,7 @@ footer .copyright {    /*correct*/
   align-items: flex-start; 
 }
 
-/*======FAQ PAGE==for tablet===*/
+/*======FAQ PAGE==for tablet=================*/
 
 .faq .content-wrapper {
   justify-content: space-between; /*correct*/
@@ -607,7 +642,7 @@ footer .copyright {    /*correct*/
 }
 
 
-}    /* end of Tablet code*/
+}    /* end of Tablet code==================*/
 
 
 @media screen and (min-width: 1200px) {
@@ -669,11 +704,11 @@ aside .content-wrapper .form {   /* correct*/
 
 }
 
-/* END OF AUTHOR SCODE */
+
 
 }
 
-
+/* END OF AUTHOR SCODE */
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 1.25dppx),
