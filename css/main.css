@@ -369,10 +369,20 @@ article .features-items-description {
   justify-content: center;
 }
 
+.mission h2 {
+  font-size: 1.6875em; 
+  font-weight: 500;
+}
+
+.mission-content p {
+  font-size: .875em;
+}
+
 .contact-section {
   display: flex;
   justify-content: center;
 }
+
 
 .contact-content p {
   margin: 0;
