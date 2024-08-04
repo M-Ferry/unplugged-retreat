@@ -141,6 +141,30 @@ h4 {
   margin: 20px 0;
   font-size: 1.125em;
 }
+/*.btn {
+  background-color: #ff1256; (this seen in video step 1 of lesson 12)
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.6em;
+  text-align: center;
+  box-shadow: 2px 2px 0px #DADADA;
+
+} 
+  
+.btn:hover {
+  background-color: #b21e49;
+}
+*/
+
+img {
+  width: 100%;  /*video step 1 lesson 12 responsive images*/
+}
+
+figure {
+  margin: 0; /*correct*/
+}
 
 p {
   font-size: .875em; /*correct*/
@@ -255,7 +279,15 @@ footer .copyright {  /*correct*/
   justify-content: center;
 }
 
-.hero-area h1 {
+.hero-area .content-wrapper {
+  background-image: url('../img/unplugged-retreat.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.hero-area .content-wrapper h1 {
   font-size: 36px;
   line-height: 43px;
   font-weight: 500;
