@@ -115,14 +115,15 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  background-color: #e2e3ed; /*default background color*/
-
+  color: #e2e3ed; /*default background color*/
+  text-align: left;
 }
 
 ul,
 ol {
   list-style-type: none; /*correct*/
-
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -133,6 +134,7 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif; /*correct*/
   font-size: 1.875em;
+  font-weight: 500;
 }
 
 h3,
@@ -140,23 +142,8 @@ h4 {
   font-family: 'Poppins', sans-serif; /*correct*/
   margin: 20px 0;
   font-size: 1.125em;
+  font-weight: 500;
 }
-/*.btn {
-  background-color: #ff1256; (this seen in video step 1 of lesson 12)
-  border: none;
-  color: #fff;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.6em;
-  text-align: center;
-  box-shadow: 2px 2px 0px #DADADA;
-
-} 
-  
-.btn:hover {
-  background-color: #b21e49;
-}
-*/
 
 img {
   width: 100%;  /*video step 1 lesson 12 responsive images*/
@@ -218,14 +205,17 @@ header nav {    /*correct*/
   width: 60%;
   font: 18px;
   font-weight: bold;
- 
  }
 
 header nav ul {    /*correct*/
   display: flex;
   justify-content: space-around;
   width: 100%;
-  
+}
+
+header nav ul li {
+  font-size: 1.125em;
+  font-weight: 700;
 }
 
 footer {   /*correct*/
@@ -273,12 +263,12 @@ footer .copyright {  /*correct*/
 
 /* --==--Mobile Styles - Homepage ===============*/
 
-/* HERO AREA correct */
-/*.hero-area {
-  display: flex;
-  justify-content: center;
+header figure {
+  width: 60%;
 }
-*/
+
+/* HERO AREA correct */
+
 .hero-area  {
   background-image: url('../img/unplugged-retreat.jpg');
   background-size: cover;
@@ -362,7 +352,6 @@ input[type=button] {
   margin-bottom: 3.75em;
   font-size: 1.875em;
   font-weight: 500;
-  color: white;
 }
 
 .features article {  /*correct*/
@@ -375,10 +364,11 @@ input[type=button] {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
-  color: white;
+  
 }
 
 .features p {  /*correct*/
+  text-align: center;
   margin: 0;
 }
 
@@ -395,27 +385,22 @@ article .features-items-description {
 /*---- reviews ------*/
 
 .reviews {    /*correct*/
-  background-image: url('../img/unplugged-retreat-lacrue.jpg');
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #2a423a;
   display: flex;
   justify-content: center;
-  color: white;
+  color: white; /* not in solution code*/
+  padding-bottom: 20px;  /* not in solution code*/
   
 }
 
-.reviews article {
-  margin: 2em 1em;
-
-}
 .reviews h2 {    /*correct*/
-  margin-bottom: 40px;  
+ font-size: 1.7; /*not in solution code*/
+ line-height: 1;
+ margin-bottom: 40px;  
 }
  
 .reviews h3 {     /*correct*/
-  width: 55%;
+  width: 64%; /*55% in solution code*/
   margin: 20px 0;
 }
 /*========ABOUT PAGE =======mobile styles=========*/
