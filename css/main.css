@@ -114,7 +114,7 @@ html {
    tag just in case you have text in <ul> or <li> elements.
     Not everything goes inside a <p> tag, after all.*/
 
-body {
+body { /*correct in sol. code*/
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   color: #e2e3ed; /*default background color*/
@@ -123,55 +123,54 @@ body {
 
 ul,
 ol {
-  list-style-type: none; /*correct*/
+  list-style-type: none; /*correct in sol. code*correct*/
   margin: 0;
   padding: 0;
 }
 
 a {
-  color: #e2e3ed; /*correct*/
+  color: #e2e3ed; /*correct in sol code*/
   text-decoration: none;
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif; /*correct*/
+  font-family: 'Poppins', sans-serif; /*correct in sol code*/
   font-size: 1.875em;
   font-weight: 600;
 }
 
 h3,
 h4 {
-  font-family: 'Poppins', sans-serif; /*correct*/
+  font-family: 'Poppins', sans-serif; /*correct in sol code*/
   margin: 20px 0;
   font-size: 1.125em;
   font-weight: 500;
 }
 
-img {
-  width: 100%;  /*video step 1 lesson 12 responsive images*/
-}
-
-figure {
-  margin: 0; /*correct*/
-}
-
 p {
-  font-size: .875em; /*correct*/
+  font-size: .875em; /*correct in sol code*/
   line-height: 1.285;
 }
 
+img {    /*correct in sol code*/
+  width: 100%;  /*video step 1 lesson 12 responsive images*/
+}
 
-address {
+figure {  /*correct in sol code*/
+  margin: 0; /*correct*/
+}
+
+address {   /*correct in sol code*/
   font-style: normal; /*correct*/
 
 }
 
-.content-wrapper {  /*correct*/
+.content-wrapper {  /*correct*/ /*correct in sol code*/
   width: 90%;
   margin: 50px 0;
 
 }
-/* Coding starts here*/
+/* Coding starts here take this bit of code out when done debugging*/
 .content-wrapper {
   outline: 3px dotted red;
   width: 90%;
@@ -180,7 +179,7 @@ address {
 
 /*  Base Header - Footer Styles for all devices unless over written */
 
-header {   /*this all correct  */
+header {   /*this all correct in sol code */
   display: flex;
   justify-content: center;
   padding: 15px 0;
@@ -188,62 +187,72 @@ header {   /*this all correct  */
 
 }
 
-header .content-wrapper { /*correct Mobile styles*/
+header .content-wrapper { /*correct Mobile styles correct in sol code*/
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   
+  
 }
 
-.header-divider {   /*correct*/
+header figure {   /*correct in sol code*/
+  width: 60%;
+}
+
+
+.header-divider {   /*correct in sol code*/
   width: 100%; 
   height: 1px;  
   margin: 10px 0 20px 0;  
+  background: #3a3a3a;
+
 }
 
-header nav {    /*correct*/
+header nav {    /*correct in sol code*/
   width: 60%;
-  font: 18px;
-  font-weight: bold;
- }
-
-header nav ul {    /*correct*/
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-header nav ul li {
   font-size: 1.125em;
   font-weight: 700;
+  text-transform: uppercase;
+ }
+
+header nav ul {    /*correct in sol. code*/
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+ 
 }
 
-footer {   /*correct*/
+header nav ul li {  /*correct in sol code*/
+  font-size: 1.125em;
+  
+}
+
+footer {   /*correct in sol code*/
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   background-color: #202322;
-  color: white;
+  
 }
 
-footer p {
+footer p {   /*correct in sol code*/
   margin: 0;  /* correct */
 }
 
-footer .content-wrapper {
+footer .content-wrapper {  /*correct in sol code*/
   width: 55%;
 
 }
 
-footer .contact {   /* correct */
+footer .contact {   /* correct in sol code*/
   margin-bottom: 50px;
 
 }
 
-footer .social-icons { /*correct */
+footer .social-icons { /*correct /*correct in sol code*/
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -251,14 +260,14 @@ footer .social-icons { /*correct */
 }
 
 
-footer .social-icons p { /*correct*/
+footer .social-icons p { /*correct in sol code*/
   display: flex;
   justify-content: center;
   align-items: center;
   
 }
 
-footer .copyright {  /*correct*/
+footer .copyright {  /*correct in sol code*/
   margin: 20px 0;
  
 }
