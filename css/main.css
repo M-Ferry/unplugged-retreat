@@ -274,9 +274,6 @@ footer .copyright {  /*correct in sol code*/
 
 /* --==--Mobile Styles - Homepage ===============*/
 
-header figure {
-  width: 60%;
-}
 
 /* HERO AREA correct */
 
@@ -294,7 +291,7 @@ header figure {
   font-size: 2.25em;
   line-height: 1.2;
   font-weight: 600;
-  color: white;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
 }
 
 /* ASIDE correct mobile*/
@@ -304,7 +301,7 @@ aside {
   justify-content: center;
   background-color: #527158;
 }
-
+          /*correct up to this point in solution*/
 /* form-description===*/
 aside .form-description h3 {
   font-size: 1.125em;
@@ -418,7 +415,7 @@ article .features-items-description {
 
 .mission {             /*all of about page correct*/
   display: flex;
-  justify-content: center;
+  justify-content: center;    
   background-color: #527158;
  
 }
@@ -592,6 +589,10 @@ header .content-wrapper {   /*correct*/
   justify-content: space-between;
 }
 
+header figure {
+  width: 30%;
+}
+
 header nav {   /*correct*/
   width: 20%;
 }
@@ -631,7 +632,6 @@ aside .content-wrapper .form {
   align-items: center;
   flex-flow: column wrap;
   flex-basis: 50%;
- /* text-align: center; not in solution */
   
 }
 
@@ -647,18 +647,30 @@ aside .content-wrapper .form {
   
 }
 
+.reviews h2 { /*correct in sol code*/
+  width: 85%;
+}
+
+.reviews article figure,
 .reviews article div {   /*correct*/
   width: 49%;
 }
 
-/*Footer for tablet=======================*/
-
-footer .content-wrapper {  /*code commented out*/
-  width: 65%;
- /* margin: 100px 0; not in solution */
-
+.reviews h3 {  /*correct in sol code*/
+  width: 75%;
+  margin: 0;
 }
 
+
+
+
+/*Footer for tablet=======================*/
+
+footer .content-wrapper {  /*code correct*/
+  width: 65%;
+
+}
+/*  start here in am 8/10/24*/
 .footer-content {   /*correct*/
   display: flex;
   justify-content: space-between;
