@@ -411,6 +411,11 @@ article .features-items-description {
   width: 64%; /*55% in solution code*/
   margin: 20px 0;
 }
+
+.reviews p {
+  width: 90%;
+  text-align: left;
+}
 /*========ABOUT PAGE =======mobile styles=========*/
 
 .mission {             /*all of about page correct*/
@@ -568,48 +573,68 @@ article .features-items-description {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
+/*correct*/
 @media screen and (min-width: 768px) {
   /* Tablet styles here */
   /*General Styles */
 
   .content-wrapper {   /*correct*/
   max-width: 640px;
-  margin: 100px 0;
+  margin: 100px 0; /*correct*/
 }
-
+/*correct*/
+h2 {
+  font-size: 2.35em;
+  line-height: 1.333;
+}
+/*correct*/
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+/*correct*/
   /* Header Tablet*/
 
 header {   /*correct*/
   padding: 33px 0;
 }
-
+/*correct*/
 header .content-wrapper {   /*correct*/
   width: 100%;
   justify-content: space-between;
 }
-
+/*correct*/
 header figure {
   width: 30%;
 }
-
+/*correct*/
 header nav {   /*correct*/
   width: 20%;
 }
-
+/*correct*/
 header nav ul {   /*correct*/
   justify-content: space-between;
 
 }
-
+/*correct*/
 .header-divider {   /*correct*/
   display: none;
 }
 
 /*Hero Area*/
+/*correct*/
+.hero-area {
+  min-height: 600px;
+}
+/*correct*/
+.hero-area h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
+}
 
 /* Aside for home tablet*/
-
+/*correct*/
 aside .content-wrapper {   /*correct*/
   margin: 50px 0;
   display: flex;
@@ -626,7 +651,11 @@ aside .content-wrapper .form {
 }
 
 /* Features for home for tablet*/
-
+/*correct*/
+.features h2 {
+  margin-bottom: 20px;
+}
+/*correct*/
 .features article {    /*correct*/
   display: flex;
   align-items: center;
@@ -634,7 +663,7 @@ aside .content-wrapper .form {
   flex-basis: 50%;
   
 }
-
+/*correct*/
 .features .features-item-description {   /*correct*/
   width: 62%;
 }
@@ -662,8 +691,6 @@ aside .content-wrapper .form {
 }
 
 
-
-
 /*Footer for tablet=======================*/
 
 footer .content-wrapper {  /*code correct*/
@@ -671,18 +698,28 @@ footer .content-wrapper {  /*code correct*/
 
 }
 /*  start here in am 8/10/24*/
-.footer-content {   /*correct*/
+footer .footer-content {   /*correct*/
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 
 }
-
+/*correct*/
 footer .contact {   /*correct*/
   margin-bottom: 0;
-
+}
+/*correct*/
+footer h4 {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+/*correct*/
+footer p {
+  line-height: 1.285;
 }
 
+/*correct*/
 footer .copyright {    /*correct*/
   width: 100%;
 }
@@ -701,14 +738,24 @@ footer .copyright {    /*correct*/
   width: 45%;  /*correct*/
 }
 
+/*correct*/
+.map figure {
+  padding-bottom: 45.5%;
+}
+/*correct*/
 .contact-section .content-wrapper h2 {
   width: 80%; /*correct*/
 }
-
+/*correct*/
 .contact-content {
   display: flex;    /*correct*/
   justify-content: space-between; 
   align-items: flex-start; 
+}
+
+/*correct*/
+.contact-content h4 {
+  font-size: 1.5em;
 }
 
 /*======FAQ PAGE==for tablet=================*/
@@ -726,9 +773,17 @@ footer .copyright {    /*correct*/
   width: 100%;  /*from instruction*/
 
 }
+/*correct*/
+.faq h4,
+.faq p {
+  font-size: .875em;
+  line-height: 1.125;
+
+}
 
 
-}    /* end of Tablet code==================*/
+
+   /* end of Tablet code==================*/
 
 
 @media screen and (min-width: 1200px) {
@@ -738,17 +793,30 @@ footer .copyright {    /*correct*/
 .content-wrapper {  /*correct*/
   max-width: 960px;
 }
-
+/*correct*/
 header {     /*correct*/
   padding: 15px 0;
 }
-
-
+/*correct*/
+h2 {
+  font-size: 2.25em;
+}
+/*correct*/
+h3,
+h4 {
+  font-size: 1.875em;
+}
+/*correct*/
+p {
+  font-size: 1.125em;
+  line-height: 1.333;
+}
 
 /* HERO for Desktop*/
 
 .hero-area h1 {   /* correct*/
   width: 80%;
+  font-size: 3.75em;
 }
 
 /*ASIDE for desktop*/
@@ -756,10 +824,10 @@ aside .content-wrapper {   /* correct*/
   justify-content: space-around;
 }
 
-
+/*correct*/
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {   /* correct*/
-  width: 30%;
+  width: 40%;
 }
 
 /* FEATURES*/
@@ -777,22 +845,46 @@ aside .content-wrapper .form {   /* correct*/
   width: 42%;
 }
 
+.reviews h2 {
+  padding-bottom: 50px;
+}
+
+footer h4 {
+  font-size: 1.875em;
+
+}
+
 /*======ABOUT PAGE===for desktop======*/
+/*correct*/
+.map figure {
+  padding-bottom: 37.5%;
+}
 
 .mission h2,   
 .contact-section .content-wrapper h2 {   /* correct*/
   width: 95%;
+  font-size: 3em;
 }
+
+/*correct*/
+.contact-content h4 {
+  font-size: 1.875em;
+}
+
 
 /*======FAQ==for desktop===========*/
 .faq h2 {    /* correct*/
   width: 100%;
-
+  font-size: 3em;
+}
+/*correct*/
+.faq h4,
+.faq p {
+  font-size: 1.125em;
+  line-height: 1;
 }
 
 
-
-}
 
 /* END OF AUTHOR SCODE */
 @media print,
