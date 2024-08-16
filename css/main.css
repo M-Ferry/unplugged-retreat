@@ -381,11 +381,13 @@ input[type=button] {
 }
 
 article .fontawesome-icons {
-  font-size: 3.75em; /*style sheet don't know if font-size is correct term*/
+  font-size: 3.75em; 
+ /*style sheet don't know if font-size is correct term*/
 } 
 
 article .features-items-description {
   justify-content: center;
+  padding-top: 15px;
 
 }
 
@@ -735,7 +737,8 @@ footer .copyright {    /*correct*/
 }
 
 .mission-content p {
-  width: 45%;  /*correct*/
+  width: 45%; 
+  column-count: 1; /*correct*/
 }
 
 /*correct*/
