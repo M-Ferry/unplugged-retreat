@@ -244,28 +244,34 @@ footer p {   /*correct in sol code*/
 
 footer .content-wrapper {  /*correct in sol code*/
   width: 55%;
-
 }
 
 footer .contact {   /* correct in sol code*/
   margin-bottom: 50px;
-
 }
 
 footer .social-icons { /*correct /*correct in sol code*/
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
 
 
 footer .social-icons p { /*correct in sol code*/
+  background-color: #50c878;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
+
+footer .social-icons p i {  /*correct in sol code*/
+  font-size: 1.3125em;
+}
+
+
 
 footer .copyright {  /*correct in sol code*/
   margin: 20px 0;
@@ -856,6 +862,8 @@ footer h4 {
   font-size: 1.875em;
 
 }
+
+
 
 /*======ABOUT PAGE===for desktop======*/
 /*correct*/
