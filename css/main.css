@@ -137,6 +137,7 @@ h2 {
   font-family: 'Poppins', sans-serif; /*correct in sol code*/
   font-size: 1.875em;
   font-weight: 600;
+  margin: 0;
 }
 
 h3,
@@ -193,8 +194,6 @@ header .content-wrapper { /*correct Mobile styles correct in sol code*/
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  
-  
 }
 
 header figure {   /*correct in sol code*/
@@ -258,7 +257,7 @@ footer .social-icons { /*correct /*correct in sol code*/
 
 
 footer .social-icons p { /*correct in sol code*/
-  background-color: #50c878;
+  background-color: #184718;
   border-radius: 50%;
   width: 40px;
   height: 40px;
