@@ -171,12 +171,6 @@ address {   /*correct in sol code*/
   margin: 50px 0;
 
 }
-/* Coding starts here take this bit of code out when done debugging*/
-.content-wrapper {
-  outline: 3px dotted red;
-  width: 90%;
-  margin: 50px 0;
- }
 
 /*  Base Header - Footer Styles for all devices unless over written */
 
@@ -702,9 +696,8 @@ aside .content-wrapper .form {
 
 footer .content-wrapper {  /*code correct*/
   width: 65%;
-
 }
-/*  start here in am 8/10/24*/
+
 footer .footer-content {   /*correct*/
   display: flex;
   justify-content: space-between;
@@ -715,6 +708,7 @@ footer .footer-content {   /*correct*/
 /*correct*/
 footer .contact {   /*correct*/
   margin-bottom: 0;
+  padding-left: 50px;
 }
 /*correct*/
 footer h4 {
@@ -725,6 +719,12 @@ footer h4 {
 footer p {
   line-height: 1.285;
 }
+
+footer .social-icons { /*from sol code*/
+  width: 12.5em;
+  justify-content: space-between;
+}
+
 
 /*correct*/
 footer .copyright {    /*correct*/
@@ -789,7 +789,7 @@ footer .copyright {    /*correct*/
 
 }
 
-
+} /*end of media query curly cue*/
 
    /* end of Tablet code==================*/
 
@@ -894,7 +894,7 @@ footer h4 {
   line-height: 1;
 }
 
-
+}  /*end of media curly cue*/
 
 /* END OF AUTHORS CODE */
 
